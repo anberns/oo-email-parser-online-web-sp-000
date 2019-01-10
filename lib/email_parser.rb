@@ -9,5 +9,7 @@ def EmailParser
     parsed = emails.split(/[\s,']/)
     parsed
   end
+  
+end
 
 
