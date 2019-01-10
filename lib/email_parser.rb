@@ -7,8 +7,8 @@ def EmailParser
   end
 
   def parse 
-    parsed = emails.split("")
+    parsed = emails.split(/[\s,']/)
+    parsed
+  end
 
 
-# The delimiters to support are commas (',')
-# or whitespace (' ').
